@@ -1,2 +1,2 @@
 # teart-4eva.github.io
-https://teart-4eva.github.io
+http://teart-4eva.github.io
