@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 
-body{
+#main{
   max-width: 1080px;
   height: 4535px;
   font-family: 'Open Sans', sans-serif;
@@ -66,7 +66,7 @@ nav {
   width: 75%;
   position: absolute;
   top: 5;
-  right: 0;
+  right: 5%;
   margin: 0 auto;
 }
 
@@ -86,6 +86,7 @@ nav ul {
 ul > li {
   display: inline-block;
   position: relative;
+  font-size: 20pt;
 }
 
 nav a {
@@ -102,7 +103,7 @@ nav a:hover {
 
 #repertuar{
   position: absolute;
-  top: 197%;
+  top: 199%;
   width: 90%;
   margin: 0 auto;
 }
@@ -219,7 +220,30 @@ table td{
   z-index: 99;
 }
 
+.kb-page{
+  max-width: 429px;
+  max-height: 69px;
+  position: absolute;
+  left: 39%;
+  top: 150%;
+}
+
 .change:hover .blue-repertuar{
+  display: inline;
+}
+
+.change-page .blue-kb-page{
+  display: none;
+  position: absolute;
+  left: 39%;
+  top: 148.4%;
+  max-width: 429px;
+  max-height: 69px;
+  padding-top: 0.8%;
+  z-index: 99;
+}
+
+.change-page:hover .blue-kb-page{
   display: inline;
 }
 
@@ -297,19 +321,102 @@ table td{
   left: 31%;
 }
 
-#contact{
-  position: absolute;
-  top: 640%;
+#phones img{
+  margin-bottom: 15px;
 }
 
-#e-mail img{
-  margin-top: 15px;
-  margin-bottom: 15px;
-  max-height: 25px;
+#contact{
+  position: absolute;
+  top: 635%;
+  left: 5%;
 }
 
 #location img{
+  margin-bottom: 200px;
+}
+
+#contact-spectacli{
+  position: absolute;
+  top: 310%;
+  left: 5%;
+}
+
+#e-mail img{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  max-height: 25px;
+}
+
+#location,#location-spectacli img{
   height: 50px;
+}
+
+#location-spectacli img{
+  margin-bottom: 100px;
+}
+
+#s7-40-page{
+  background-image: url("../images/bg-7-40.jpg");
+  background-size: 100%;
+  background-repeat:no-repeat;
+  background-clip: border-box;
+  background-attachment: scroll;
+}
+
+#s7-42-page{
+  background-image: url("../images/bg-7-42.jpg");
+  background-size: 100%;
+  background-repeat:no-repeat;
+  background-clip: border-box;
+  background-attachment: scroll;
+}
+
+#bichcki-page{
+  background-image: url("../images/bg-bichcki.jpg");
+  background-size: 100%;
+  background-repeat:no-repeat;
+  background-clip: border-box;
+  background-attachment: scroll;
+}
+
+#mamasha-page{
+  background-image: url("../images/bg-mamasha.jpg");
+  background-size: 100%;
+  background-repeat:no-repeat;
+  background-clip: border-box;
+  background-attachment: scroll;
+}
+
+#svadba-page{
+  background-image: url("../images/bg-svadba.jpg");
+  background-size: 100%;
+  background-repeat:no-repeat;
+  background-clip: border-box;
+  background-attachment: scroll;
+}
+
+#priatnogo-page{
+  background-image: url("../images/bg-priatnogo.jpg");
+  background-size: 100%;
+  background-repeat:no-repeat;
+  background-clip: border-box;
+  background-attachment: scroll;
+}
+
+#crazy-day-page{
+  background-image: url("../images/bg-crazy-day.jpg");
+  background-size: 100%;
+  background-repeat:no-repeat;
+  background-clip: border-box;
+  background-attachment: scroll;
+}
+
+#tri-plus-kot-page{
+  background-image: url("../images/bg-tri-plus-kot.jpg");
+  background-size: 100%;
+  background-repeat:no-repeat;
+  background-clip: border-box;
+  background-attachment: scroll;
 }
 
 /*--------------------------------------------CONSTRUCTION*/
