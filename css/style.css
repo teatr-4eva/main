@@ -24,6 +24,15 @@ h2{
   margin-bottom: 0px;
 }
 
+#blizhashie{
+  position: absolute;
+  left: 36%;
+  top: 167%;
+  font-size: 24pt;
+  font-weight: 400;
+  color: rgb(234, 87, 44);
+}
+
 h3{
   font-size: 27.16pt;
   margin-top: 0px;
@@ -275,7 +284,7 @@ table td{
   grid-template-rows: 1fr 1fr 1fr 1fr;
   gap: 25px 25px;
   grid-template-areas:
-    "mamasha tri-plus-kot s7-40"
+    "mamasha s7-40 tri-plus-kot"
     "s7-42 bichcki svadba"
     "priatnogo crazy-day ."
     "phone phone phone";
@@ -418,6 +427,26 @@ table td{
   background-clip: border-box;
   background-attachment: scroll;
 }
+
+.blizhashie{
+  position: absolute;
+  left: 29%;
+  top: 180%;
+  font-size: 22px;
+}
+
+.blizhashie td{
+  padding-bottom: 4px;
+  padding-top: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#row-2{
+  background-color: rgb(251, 249, 236);
+}
+
+
 
 /*--------------------------------------------CONSTRUCTION*/
 #construction-1{
