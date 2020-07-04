@@ -1,0 +1,41 @@
+@media (max-width: 414px){
+  #main, #mamasha-page, #s7-40-page, #s7-42-page, #bichcki-page, #priatnogo-page, #crazy-day-page, #svadba-page, #tri-plus-kot-page, #blizhashie, h2, h4, h5, h6, nav{
+    background-image: none;
+    font-size: 0;
+  }
+
+  h3, nav, table{
+    display: none;
+  }
+  #main, #mamasha-page, #s7-40-page, #s7-42-page, #bichcki-page, #priatnogo-page, #crazy-day-page, #svadba-page, #tri-plus-kot-page{
+    background-color: black;
+    max-height: 1920px;
+  }
+
+  main img{
+    display: none;
+  }
+
+  #construction-1{
+    position: absolute;
+    top: 10%;
+    font-size: 12pt;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0,0,0);
+    border-radius: 10px;
+    border: 2px solid rgb(0,0,0);
+    font-weight: 700;
+    margin-left: 2%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  #construction-1 p{
+    padding-top: 15px;
+  }
+
+
+
+}

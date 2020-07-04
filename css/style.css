@@ -2,7 +2,6 @@
 
 #main{
   max-width: 1080px;
-  height: 4535px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   background-image: url("../images/bg-index.jpg");
@@ -449,7 +448,7 @@ table td{
 
 
 /*--------------------------------------------CONSTRUCTION*/
-#construction-1{
+/*#construction-1{
   position: absolute;
   top: 25%;
   font-size: 24.5pt;
@@ -501,4 +500,9 @@ table td{
   margin-bottom: 0;
   padding-top: 0;
   padding-bottom: 0;
+}*/
+
+
+#construction-1{
+font-size: 0;
 }
